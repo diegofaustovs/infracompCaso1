@@ -6,11 +6,23 @@
 
 package mensaje;
 
+import java.net.Socket;
+
 /**
  *
  * @author Diego F. Vanegas
  */
 public class Mensaje
 {
+    Socket socket;
+
+    public Mensaje(Socket s)
+    {
+        socket = s;
+    }
     
+    public void enviar()
+    {
+        
+    }
 }
